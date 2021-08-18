@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+:root {
+  --dark-blue: #184366;
+  --light-green: #0e987d;
+  --light-blue: #5ab3c4;
+  --yellow: #e8b20f;
+  --orange: #e95b37;
+  --OffWhite: #f8f8f8;
+}
+
+*,
+*::before,
+*::after {
+  border: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  width: 100vw;
+  position: relative;
+}
+
+header {
+  width: 100%;
+  min-height: 5vh;
+
+  background-color: #184366;
+}
+
+.container {
+  width: 100%;
+  min-height: 85vh;
+  background-color: #0e987d;
+}
+
+footer {
+  width: 100%;
+  min-height: 10vh;
+  background-color: var(--dark-blue);
+  color: var(--OffWhite);
+}
