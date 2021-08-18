@@ -58,4 +58,31 @@ footer {
   height: 220px;
   background-color: var(--dark-blue);
   color: var(--OffWhite);
+  border: 2px solid var(--yellow);
+}
+
+footer .main_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .main_footer .main_footer__mission {
+  width: 100%;
+  border: 1px solid rgb(181, 251, 50);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .main_footer .main_footer__mission p {
+  color: var(--yellow);
+  font-size: 2.87rem;
+  font-weight: bold;
+}
+
+.light_blue {
+  color: var(--light-blue) !important;
 }
