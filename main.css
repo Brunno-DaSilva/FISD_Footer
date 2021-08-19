@@ -120,6 +120,7 @@ footer .main_footer__address .footer__address {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 footer .main_footer__address .footer__address p {
@@ -142,6 +143,7 @@ footer .main_footer__copyright {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 footer .main_footer__copyright p,
